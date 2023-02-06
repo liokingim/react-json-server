@@ -1,0 +1,204 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "customers": [
+    {
+      "id": "63e0de72d92e33c027149eea",
+      "name": "Twila Barrera",
+      "company": "STROZEN",
+      "email": "twilabarrera@strozen.com",
+      "phone": "+1 (931) 432-2421",
+      "address": "888 Irwin Street, Newkirk, Puerto Rico, 594"
+    },
+    {
+      "id": "63e0de72476aea23674a6ad9",
+      "name": "Cleo Head",
+      "company": "EXOTERIC",
+      "email": "cleohead@exoteric.com",
+      "phone": "+1 (881) 430-2157",
+      "address": "228 Dumont Avenue, Gilgo, Arkansas, 7666"
+    },
+    {
+      "id": "63e0de7219349f20583b16a0",
+      "name": "Winters Lambert",
+      "company": "PHOTOBIN",
+      "email": "winterslambert@photobin.com",
+      "phone": "+1 (848) 447-2528",
+      "address": "396 Schweikerts Walk, Independence, North Dakota, 3133"
+    },
+    {
+      "id": "63e0de7214c74a5427976ba8",
+      "name": "Fitzpatrick Patrick",
+      "company": "NIXELT",
+      "email": "fitzpatrickpatrick@nixelt.com",
+      "phone": "+1 (838) 434-3240",
+      "address": "216 Seagate Terrace, Dexter, North Carolina, 9336"
+    },
+    {
+      "id": "63e0de7240c9dffc61345789",
+      "name": "Mattie Fry",
+      "company": "SYBIXTEX",
+      "email": "mattiefry@sybixtex.com",
+      "phone": "+1 (994) 456-2682",
+      "address": "739 Buffalo Avenue, Barstow, Kansas, 460"
+    },
+    {
+      "id": "63e0de72c02a33a3185f50c4",
+      "name": "Jeri Lindsay",
+      "company": "SPLINX",
+      "email": "jerilindsay@splinx.com",
+      "phone": "+1 (916) 506-2949",
+      "address": "454 Oak Street, Elliston, New Jersey, 6973"
+    },
+    {
+      "id": "63e0de72ca054f0d03fed384",
+      "name": "Ollie Haley",
+      "company": "ZYPLE",
+      "email": "olliehaley@zyple.com",
+      "phone": "+1 (847) 438-3526",
+      "address": "881 Schermerhorn Street, Loretto, Massachusetts, 6935"
+    },
+    {
+      "id": "63e0de7263b763824d2d87fa",
+      "name": "Randall Long",
+      "company": "AMTAS",
+      "email": "randalllong@amtas.com",
+      "phone": "+1 (873) 562-3001",
+      "address": "503 Kossuth Place, Wyoming, Georgia, 2840"
+    },
+    {
+      "id": "63e0de72ce0bda88db1f1a47",
+      "name": "Sullivan Huff",
+      "company": "ZENSURE",
+      "email": "sullivanhuff@zensure.com",
+      "phone": "+1 (957) 455-3928",
+      "address": "764 Dennett Place, Edgar, Vermont, 8838"
+    },
+    {
+      "id": "63e0de723fe50850ca250ca1",
+      "name": "Emily Vasquez",
+      "company": "NETPLODE",
+      "email": "emilyvasquez@netplode.com",
+      "phone": "+1 (948) 476-2046",
+      "address": "376 Ivan Court, Kenvil, New Mexico, 3551"
+    },
+    {
+      "id": "63e0de72b7205f4786e07fe6",
+      "name": "Robyn Kidd",
+      "company": "ROCKLOGIC",
+      "email": "robynkidd@rocklogic.com",
+      "phone": "+1 (850) 462-2920",
+      "address": "200 Merit Court, Tilleda, Federated States Of Micronesia, 3358"
+    },
+    {
+      "id": "63e0de72acb6570c5ac29a73",
+      "name": "Annmarie Cote",
+      "company": "CONFERIA",
+      "email": "annmariecote@conferia.com",
+      "phone": "+1 (857) 434-3638",
+      "address": "807 Neptune Avenue, Cade, Nebraska, 4267"
+    },
+    {
+      "id": "63e0de728f6b58b7374e582c",
+      "name": "Ramos Sandoval",
+      "company": "ZOGAK",
+      "email": "ramossandoval@zogak.com",
+      "phone": "+1 (868) 494-2388",
+      "address": "524 Dahl Court, Verdi, American Samoa, 850"
+    },
+    {
+      "id": "63e0de72320c04d5ae44a18b",
+      "name": "Odom Walls",
+      "company": "ECOLIGHT",
+      "email": "odomwalls@ecolight.com",
+      "phone": "+1 (880) 458-3078",
+      "address": "242 Aberdeen Street, Twilight, District Of Columbia, 6839"
+    },
+    {
+      "id": "63e0de72525e5b20a7cf2634",
+      "name": "Snider Vaughn",
+      "company": "MAGNAFONE",
+      "email": "snidervaughn@magnafone.com",
+      "phone": "+1 (830) 470-2124",
+      "address": "843 Grant Avenue, Alafaya, Arizona, 8205"
+    },
+    {
+      "id": "63e0de72d801d023ef938caf",
+      "name": "Massey York",
+      "company": "EMTRAC",
+      "email": "masseyyork@emtrac.com",
+      "phone": "+1 (838) 512-2880",
+      "address": "854 Hall Street, Welch, Hawaii, 6206"
+    },
+    {
+      "id": "63e0de72b6079b1995fa72e1",
+      "name": "Ballard Young",
+      "company": "KOG",
+      "email": "ballardyoung@kog.com",
+      "phone": "+1 (839) 551-3982",
+      "address": "349 Lamont Court, Shindler, Texas, 6636"
+    },
+    {
+      "id": "63e0de72b5705725a8cd9666",
+      "name": "Wilder Brennan",
+      "company": "NAMEGEN",
+      "email": "wilderbrennan@namegen.com",
+      "phone": "+1 (918) 416-3515",
+      "address": "872 Henderson Walk, Blackgum, Maine, 9135"
+    },
+    {
+      "id": "63e0de7225e04dc6bb2f8f81",
+      "name": "Vilma Cotton",
+      "company": "KOFFEE",
+      "email": "vilmacotton@koffee.com",
+      "phone": "+1 (851) 442-3870",
+      "address": "301 Kent Street, Bascom, Virginia, 8105"
+    },
+    {
+      "id": "63e0de729d6abe2f97b909e6",
+      "name": "Horn Malone",
+      "company": "TELPOD",
+      "email": "hornmalone@telpod.com",
+      "phone": "+1 (837) 404-3268",
+      "address": "704 Cox Place, Wakarusa, Mississippi, 9049"
+    },
+    {
+      "name": "John Doe",
+      "company": "The Create",
+      "email": "John@strozen.com",
+      "phone": "(931) 432-2421",
+      "address": "제주도",
+      "id": "gcbJ12u"
+    },
+    {
+      "name": "John Doe",
+      "company": "The Create",
+      "email": "John@strozen.com",
+      "phone": "(931) 432-2421",
+      "address": "제주도",
+      "id": "-OXqhRA"
+    },
+    {
+      "id": "dQ49aTk",
+      "name": "ㅅㄷㄴㅅ",
+      "email": "ㅅㅅㅅㅅㅅ",
+      "phone": "ㅅㅅㅅㅅㅁㅁㅁㅁ",
+      "active": true
+    }
+  ]
+}
