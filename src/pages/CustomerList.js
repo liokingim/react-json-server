@@ -1,8 +1,33 @@
 import React, {useEffect, useState} from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const CustomerList = () => {
     const [customerDate, customerDateChange] = useState(null);
+
+    const navigate = useNavigate();
+
+    const loadDetail = (id) => {
+        navigate('/customer/detail/' + id);
+    }
+
+    const loadEdit = (id) => {
+        navigate('/customer/edit/' + id);
+    }
+
+    const removeItem = (id) => {
+        if (window.confirm('Do you want to remove?')) {
+            fetch("http://localhost:3001/customers/"+id, {
+                method: "DELETE",
+            })
+            .then((response) => {
+                alert("Remove Success");
+                window.location.reload();
+            })
+            .catch((err) => {
+                console.log(err.message);
+            });
+        }
+    }
 
     useEffect(() => {
         fetch("http://localhost:3001/customers")
@@ -44,9 +69,9 @@ const CustomerList = () => {
                                         <td>{item.email}</td>
                                         <td>{item.phone}</td>
                                         <td>
-                                            <a className="btn btn-success">Edit</a>
-                                            <a className="btn btn-danger">Remove</a>
-                                            <a className="btn btn-primary">Detail</a>
+                                            <a onClick={() => {loadEdit(item.id)}} className="btn btn-success">Edit</a>
+                                            <a onClick={() => {removeItem(item.id)}} className="btn btn-danger">Remove</a>
+                                            <a onClick={() => {loadDetail(item.id)}} className="btn btn-primary">Detail</a>
                                         </td>
                                     </tr>
                                 ))
